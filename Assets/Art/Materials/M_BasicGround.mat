@@ -25,19 +25,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseAO:
-        m_Texture: {fileID: 2800000, guid: 0be30c0d5610ea14d8c9612f2f608f89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 78b6551b4b2ad30469d864224a14eb0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: ee6cf231c4692594a8548b7637908364, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8d3f892bcb611e742a2ff584653fd80f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseNormal:
-        m_Texture: {fileID: 2800000, guid: 52c0f44b0941c4542988b42596cf45db, type: 3}
+        m_Texture: {fileID: 2800000, guid: 85fcbc5fc5edbfd4f9a9d3ea1be64efc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseSmoothness:
-        m_Texture: {fileID: 2800000, guid: 9a747f212ba52d34ea96c158141146ce, type: 3}
+        m_Texture: {fileID: 2800000, guid: 15bf00b7a5c54884a809aede1054f806, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlendAO:
@@ -72,12 +72,12 @@ Material:
     m_Floats:
     - _BaseSmoothIntensity: 0.5
     - _BlendSmoothIntensity: 1
-    - _MaskAmount: 0.07
+    - _MaskAmount: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BaseTiling: {r: 2, g: 2, b: 0, a: 0}
-    - _BlendTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _BaseTiling: {r: 3, g: 3, b: 0, a: 0}
+    - _BlendTiling: {r: 3, g: 3, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1961690521259464455
