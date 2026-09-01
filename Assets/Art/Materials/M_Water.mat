@@ -7,47 +7,51 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_HoloSmoke
-  m_Shader: {fileID: -6465566751694194690, guid: f68c7fef2e4a3a2468bb2ba5b0c9ea7e, type: 3}
-  m_Parent: {fileID: 2100000, guid: 0deafc3d13667cd4693a6f8b116f6da9, type: 2}
+  m_Name: M_Water
+  m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: 8eeb364d2d844ef4f9a5178f60fd0ef6, type: 3}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Blend: 0
-    - _BorderWidth: 0.5
-    - _DstBlend: 10
-    - _DstBlendAlpha: 10
-    - _Frequency: 62.2
-    - _Intensity: 1
-    - _Speed: 5
-    - _SrcBlend: 5
-    - _SrcBlendAlpha: 1
-    - _Width: 0.5
+    - _AngleOffset: 0.5
+    - _DistortionAngleOffset: 0.25
+    - _DistortionIntensity: 0.375
+    - _NormalStrength: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
-    - _AlphaRange: {r: 0.8, g: 0.9, b: 0, a: 0}
+    - _DistortionOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _DistortionTiling: {r: 2.5, g: 2.5, b: 0, a: 0}
+    - _Offset: {r: 0.025, g: 0.05, b: 0, a: 0}
+    - _Tiling: {r: 20, g: 20, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8080131597484210749
+--- !u!114 &2340295285534340622
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

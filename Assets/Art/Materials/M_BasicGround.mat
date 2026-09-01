@@ -32,6 +32,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8d3f892bcb611e742a2ff584653fd80f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BaseHeight:
+        m_Texture: {fileID: 2800000, guid: 15bf00b7a5c54884a809aede1054f806, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseNormal:
         m_Texture: {fileID: 2800000, guid: 85fcbc5fc5edbfd4f9a9d3ea1be64efc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -46,6 +50,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BlendColor:
         m_Texture: {fileID: 2800000, guid: 4830f14ec091f8b40b4d7103c5a00883, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendHeight:
+        m_Texture: {fileID: 2800000, guid: 231984054eacaf24db1541eeaf1d2410, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlendNormal:
@@ -70,7 +78,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BaseAmplitude: 1
     - _BaseSmoothIntensity: 0.5
+    - _BlendAmplitude: 1
     - _BlendSmoothIntensity: 1
     - _MaskAmount: 0
     - _QueueControl: 0
