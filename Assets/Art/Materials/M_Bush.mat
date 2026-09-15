@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Water
-  m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
+  m_Name: M_Bush
+  m_Shader: {fileID: -6465566751694194690, guid: 3fbb17682620e0f48b895bc205f87c06, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 65129d02b61001348af2fa572402c6b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,21 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AngleOffset: 2.5
-    - _DistortionAngleOffset: 0.25
-    - _DistortionIntensity: 0.125
-    - _NormalStrength: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveIntensity: 0.375
-    m_Colors:
-    - _DistortionOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _DistortionTiling: {r: 5, g: 5, b: 0, a: 0}
-    - _Offset: {r: 0.025, g: 0.05, b: 0, a: 0}
-    - _Tiling: {r: 25, g: 25, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2340295285534340622
+--- !u!114 &2790236703392259096
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

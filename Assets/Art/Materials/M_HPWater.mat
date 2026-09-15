@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Water
+  m_Name: M_HPWater
   m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: 2c4361f96d36f9043ac5bd484bd4fcfe, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -23,36 +23,16 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _AngleOffset: 2.5
-    - _DistortionAngleOffset: 0.25
-    - _DistortionIntensity: 0.125
-    - _NormalStrength: 0.5
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _WaveIntensity: 0.375
+    - _DistortionIntensity: 0.5
     m_Colors:
-    - _DistortionOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _DistortionTiling: {r: 5, g: 5, b: 0, a: 0}
-    - _Offset: {r: 0.025, g: 0.05, b: 0, a: 0}
-    - _Tiling: {r: 25, g: 25, b: 0, a: 0}
+    - _DistortionTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _Tiling: {r: 0.75, g: 0.75, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2340295285534340622
+--- !u!114 &1469291274426704905
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
