@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_HPWater
-  m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
-  m_Parent: {fileID: 2100000, guid: 2c4361f96d36f9043ac5bd484bd4fcfe, type: 2}
+  m_Name: M_SeeThrough
+  m_Shader: {fileID: -6465566751694194690, guid: 542a8bec38d8c2a4bb2459a782f1e8d4, type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -23,20 +23,28 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CoastDepth: 0.5
-    - _CoastDistance: 1
-    - _Depth: 0.5
-    - _Distance: 7.5
     - _DistortionIntensity: 0.5
-    m_Colors:
-    - _DistortionTiling: {r: 2, g: 2, b: 0, a: 0}
-    - _Tiling: {r: 0.75, g: 0.75, b: 0, a: 0}
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1469291274426704905
+--- !u!114 &303778277607452777
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
