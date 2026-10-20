@@ -20,8 +20,11 @@ public class ThirdPersonModel : MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private float _jumpForce = 8.75f;
     [SerializeField] private float _moveSpeed = 5.0f;
+    [Range(1.0f, 5.0f)][SerializeField] private float _sprintModifier = 1.375f;
 
-    private bool _isGrounded = true;
+    private bool _isGrounded = true, _isSprinting = false;
+    public bool IsSprinting { get { return _isSprinting; } set { _isSprinting = value; } }
+    private float _actualSprintModifier = 1.0f;
 
     private Ray _groundRay;
 
@@ -55,6 +58,18 @@ public class ThirdPersonModel : MonoBehaviour
 
     private void Update()
     {
+        switch (_isSprinting)
+        {
+            case true:
+                _actualSprintModifier = _sprintModifier;
+                _view.SetTimeScale(_actualSprintModifier);
+                break;
+            case false:
+                _actualSprintModifier = 1.0f;
+                _view.SetTimeScale(_actualSprintModifier);
+                break;
+        }
+
         _smoothedInput = Vector2.SmoothDamp(_smoothedInput, _rawInput, ref _smoothedVelocity, _smoothInputSpeed);
         
         _view.SetMoveValue(_smoothedInput);
@@ -106,7 +121,7 @@ public class ThirdPersonModel : MonoBehaviour
         
         _dirFix = _cameraRightFix * input.x + _cameraForwardFix * input.y;
         
-        _rb.MovePosition(_rb.position + _dirFix * _moveSpeed * Time.fixedDeltaTime);
+        _rb.MovePosition(_rb.position + _dirFix * (_moveSpeed * _actualSprintModifier) * Time.fixedDeltaTime);
     }
 
     private void Rotate(Vector3 dir)

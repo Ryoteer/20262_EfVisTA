@@ -27,6 +27,8 @@ public class ThirdPersonController : MonoBehaviour
         _input.ThirdPersonPlayer.Movement.canceled += MovementCancel;
         _input.ThirdPersonPlayer.Rotation.performed += RotationAction;
         _input.ThirdPersonPlayer.Rotation.canceled += RotationCancel;
+        _input.ThirdPersonPlayer.Sprint.performed += SprintAction;
+        _input.ThirdPersonPlayer.Sprint.canceled += SprintCancel;
     }
 
     private void OnDisable()
@@ -38,6 +40,8 @@ public class ThirdPersonController : MonoBehaviour
         _input.ThirdPersonPlayer.Movement.canceled -= MovementCancel;
         _input.ThirdPersonPlayer.Rotation.performed -= RotationAction;
         _input.ThirdPersonPlayer.Rotation.canceled -= RotationCancel;
+        _input.ThirdPersonPlayer.Sprint.performed -= SprintAction;
+        _input.ThirdPersonPlayer.Sprint.canceled -= SprintCancel;
     }
 
     private void JumpAction(InputAction.CallbackContext value)
@@ -63,5 +67,15 @@ public class ThirdPersonController : MonoBehaviour
     private void RotationCancel(InputAction.CallbackContext value)
     {
         _springArm.MouseInput = Vector2.zero;
+    }
+
+    private void SprintAction(InputAction.CallbackContext value)
+    {
+        _model.IsSprinting = true;
+    }
+
+    private void SprintCancel(InputAction.CallbackContext value)
+    {
+        _model.IsSprinting = false;
     }
 }

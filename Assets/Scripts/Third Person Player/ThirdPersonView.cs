@@ -31,4 +31,14 @@ public class ThirdPersonView : MonoBehaviour
         _animator.SetFloat(_xFloatName, input.x);
         _animator.SetFloat(_yFloatName, input.y);
     }
+
+    public void SetTimeScale(float timeScale)
+    {
+        if (timeScale > 2.0f)
+        {
+            timeScale /= 1.5f;
+        }
+
+        _animator.speed = timeScale;
+    }
 }

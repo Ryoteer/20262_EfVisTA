@@ -20,8 +20,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
     #endregion
+
+    [Header("<color=white>Rendering</color>")]
+    [Range(30, 165)][SerializeField] private int _maxFPS = 60;
     
     private ThirdPersonModel _thirdPersonPlayer;
 
@@ -33,6 +36,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
-    }
+        Application.targetFrameRate = _maxFPS;
+    }    
 }
