@@ -727,21 +727,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "24e02a0706cf4797b9fca06a3b0b754b",
-    "m_Id": 1,
-    "m_DisplayName": "Vignette",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Vignette",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "26aa9629a57b476ca8850f67c2f602ef",
     "m_Id": 3,
@@ -1995,6 +1980,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "bfd6b1fa6b6545cbb36a8c54c369fe81",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "c02a3d0ff85f43cf9c966637b2e68ac8",
     "m_Name": "Vignette",
@@ -2396,7 +2396,7 @@
     },
     "m_Slots": [
         {
-            "m_Id": "24e02a0706cf4797b9fca06a3b0b754b"
+            "m_Id": "bfd6b1fa6b6545cbb36a8c54c369fe81"
         }
     ],
     "synonyms": [],
