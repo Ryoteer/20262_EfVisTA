@@ -33,9 +33,9 @@ TagManager:
   - 
   - 
   - 
-  - Hand
-  - Ground
+  - 
   - Wall
+  - Ground
   - Managers
   m_SortingLayers:
   - name: Default

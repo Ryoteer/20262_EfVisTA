@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Water
-  m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: d2c4b4f1deebc414982d44c2bc4efc43, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -39,13 +39,21 @@ Material:
     m_Ints: []
     m_Floats:
     - _AngleOffset: 2.5
+    - _CoastDepth: 0.25
+    - _CoastDistance: 1
+    - _DepthDistortionAmount: 1
+    - _DistortionAmount: 1
     - _DistortionAngleOffset: 0.25
     - _DistortionIntensity: 0.125
     - _NormalStrength: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _WaterDepth: 1.5
+    - _WaterDistance: 3
+    - _WaveHeight: 0.5
     - _WaveIntensity: 0.375
     m_Colors:
+    - _CoastRange: {r: 0, g: 0.5, b: 0, a: 0}
     - _DistortionOffset: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _DistortionTiling: {r: 5, g: 5, b: 0, a: 0}
     - _Offset: {r: 0.025, g: 0.05, b: 0, a: 0}

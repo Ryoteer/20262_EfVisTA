@@ -22,12 +22,13 @@ public class GameManager : MonoBehaviour
     }
     
     #endregion
+    
+    private ThirdPersonModel _thirdPersonPlayer;
 
-    private FirstPersonModel _firstPersonPlayer;
-    public FirstPersonModel FirstPersonPlayer
+    public ThirdPersonModel ThirdPersonPlayer
     {
-        get { return _firstPersonPlayer; }
-        set { _firstPersonPlayer = value; }
+        get { return _thirdPersonPlayer; }
+        set { _thirdPersonPlayer = value; }
     }
 
     private void Start()

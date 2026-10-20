@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_HPWater
-  m_Shader: {fileID: -6465566751694194690, guid: 67d32b073d7513e4780e77a4f320cc67, type: 3}
-  m_Parent: {fileID: 2100000, guid: 2c4361f96d36f9043ac5bd484bd4fcfe, type: 2}
+  m_Shader: {fileID: -6465566751694194690, guid: d2c4b4f1deebc414982d44c2bc4efc43, type: 3}
+  m_Parent: {fileID: 2100000, guid: e0953dba154b4504999f9691fa702f05, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
