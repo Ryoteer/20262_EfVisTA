@@ -4958,8 +4958,8 @@
     "m_ObjectId": "1fb765841cb94d728b4c6913082d466e",
     "m_Title": "Posición",
     "m_Position": {
-        "x": -7635.0,
-        "y": 58.0
+        "x": -7635.19970703125,
+        "y": 56.00006103515625
     }
 }
 
@@ -5249,8 +5249,8 @@
     "m_ObjectId": "21cc7acda0d24baeab3e27b8b2ffb60c",
     "m_Title": "Noise maps",
     "m_Position": {
-        "x": -6539.0,
-        "y": 2816.0
+        "x": -6539.19970703125,
+        "y": 2814.39990234375
     }
 }
 
@@ -5335,8 +5335,8 @@
     "m_ObjectId": "23d8ee37aa76415ca98d0559d9204930",
     "m_Title": "UV",
     "m_Position": {
-        "x": -7307.0,
-        "y": 482.0
+        "x": -7307.19970703125,
+        "y": 480.00006103515627
     }
 }
 
@@ -6581,8 +6581,8 @@
     "m_ObjectId": "32d1b911c632494fad24c164083471d9",
     "m_Title": "Generar una distorción de UV",
     "m_Position": {
-        "x": -10149.0,
-        "y": 1687.0
+        "x": -10149.6005859375,
+        "y": 1684.80029296875
     }
 }
 
@@ -7483,8 +7483,8 @@
     "m_ObjectId": "41c99e9a735a4e95bfc02c69827a605c",
     "m_Title": "Interpolación",
     "m_Position": {
-        "x": -6531.0,
-        "y": 1232.0
+        "x": -6531.19970703125,
+        "y": 1230.4000244140625
     }
 }
 
@@ -9124,7 +9124,7 @@
         "scale"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9207,8 +9207,8 @@
     "m_ObjectId": "60c48b21bc764a3f9745bcd64745f9bd",
     "m_Title": "Distorción del UV",
     "m_Position": {
-        "x": -8174.0,
-        "y": 1679.0
+        "x": -8174.39990234375,
+        "y": 1677.5999755859375
     }
 }
 
@@ -10395,8 +10395,8 @@
     "m_ObjectId": "6ff04c6610e84bff9ec5f96c5a2a2eb5",
     "m_Title": "Funciones trigonométricas",
     "m_Position": {
-        "x": -4613.0,
-        "y": 125.0
+        "x": -4613.60009765625,
+        "y": 123.2000732421875
     }
 }
 
@@ -12032,8 +12032,8 @@
     "m_ObjectId": "88e23e8c377b475a877c98a638f4752a",
     "m_Title": "Vertex displacement",
     "m_Position": {
-        "x": -8090.0,
-        "y": 489.0
+        "x": -8090.39990234375,
+        "y": 487.2000732421875
     }
 }
 
@@ -13233,8 +13233,8 @@
     "m_ObjectId": "9b19e22e59eb47a4bf091acdf716a2b5",
     "m_Title": "Texturas",
     "m_Position": {
-        "x": -7083.0,
-        "y": 127.0
+        "x": -7083.19970703125,
+        "y": 124.800048828125
     }
 }
 
@@ -13723,8 +13723,8 @@
     "m_ObjectId": "a44a8f4638394de1b7487ecb8c0471ff",
     "m_Title": "Levels",
     "m_Position": {
-        "x": -5548.0,
-        "y": 1234.0
+        "x": -5548.7998046875,
+        "y": 1232.0
     }
 }
 
@@ -14105,8 +14105,8 @@
     "m_ObjectId": "a9bea297db04497eb2eb870771882646",
     "m_Title": "Clampeo de valores",
     "m_Position": {
-        "x": -6532.0,
-        "y": 2008.0
+        "x": -6532.7998046875,
+        "y": 2006.4000244140625
     }
 }
 
@@ -15021,8 +15021,8 @@
     "m_ObjectId": "b6f9a1ff850046e5a7ea2f9a2603f587",
     "m_Title": "Operaciones básicas",
     "m_Position": {
-        "x": -6528.0,
-        "y": 124.0
+        "x": -6528.7998046875,
+        "y": 122.40008544921875
     }
 }
 

@@ -48,7 +48,7 @@ Material:
     - _MaxOpacity: 1
     - _MinDistance: 125
     - _MinOpacity: 0.75
-    - _SkyBlendPower: 0.625
+    - _SkyBlendPower: 0.75
     - _SkyValue: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}

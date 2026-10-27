@@ -47,10 +47,10 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 1636126874718123172}
   - {fileID: 3435154057092969512}
-  - {fileID: -7057621357334492453}
   - {fileID: 694509348729109180}
+  - {fileID: -7057621357334492453}
   - {fileID: 2438935132345122148}
-  m_RendererFeatureMap: a4340b57b9b0b41628b4c4296a1eac2fdb0adeb4c44a0e9ebcba2fb09264a30964bda6b194d6d821
+  m_RendererFeatureMap: a4340b57b9b0b41628b4c4296a1eac2fbcba2fb09264a309db0adeb4c44a0e9e64bda6b194d6d821
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -106,13 +106,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: Screen Outlines
+  m_Name: Outlines
   m_EditorClassIdentifier: 
   m_Active: 0
   injectionPoint: 550
   fetchColorBuffer: 1
   requirements: 5
-  passMaterial: {fileID: 2100000, guid: 49c47ebba57da36478b8d46eef786377, type: 2}
+  passMaterial: {fileID: 2100000, guid: a1c099972ad9dee4a87acfeacc2b3a79, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
